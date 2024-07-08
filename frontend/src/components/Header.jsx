@@ -7,8 +7,9 @@ export default function Header() {
     <header>
       <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
         <Container>
-          <Navbar.Brand href="/">
-            <img src={logo} alt="SafeTech" className="logo" /> TechBuffer
+          <Navbar.Brand href="/" className="d-flex">
+            <img src={logo} alt="SafeTech" className="logo" />
+            <span className="d-block mt-1">SafeTech</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse>
